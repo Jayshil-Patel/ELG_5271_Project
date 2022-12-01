@@ -1,10 +1,10 @@
 # ELG 5271 Artificial Intelligence for Cybersecurity Applications -- Project -- Group 12
-==========================================================================================
+===========================================================================
 
 ## Malware Detection using PNG images ##
 
 This project is about classifying malware classes from given image dataset. The dataset contains 28 classes and are given in the format 3D numpy array and RGB csv file. The given dataset is not trainable format nor cleansed data. Hence, cleaning needs to be done before proceeding it for training.
-
+--------------------------------------------------------------------------
 _The following steps were performed to make the dataset trainable:_
 
 ### Step 1: Data Reading ###
@@ -70,6 +70,14 @@ save_obj(labels, 'cleaned_dataset_labels')
 
 Dataset for both traditional and deep learning are splitted into `train` and `test` respectively. The split ratio is `[70:30]`. 
 
+```python
+import splitfolders
+splitfolders.ratio("input_images/, 
+    output="splitted_folders/",
+    seed=1337, ratio=(.8, .2), group_prefix=None, move=False)
+```
+*Finally! The data is now ready for training!!*
+--------------------------------------------------------------------------
 
 
 
