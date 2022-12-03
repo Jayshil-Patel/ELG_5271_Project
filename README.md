@@ -11,16 +11,16 @@ The recommended environment to run the codes it `Google Colab` with `GPU` runtim
 
 Summary of Code files;
 1. Data Pre-Processing:
-[dataset.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/dataset.ipynb) is for creating image dataset used for training deep learning models.
-[DataPreprocessing.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/DataPreprocessing.ipynb) is for creating dataset for training machine learning models.
+[dataset.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/dataset.ipynb) is for creating image dataset used for training deep learning models.\
+[DataPreprocessing.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/DataPreprocessing.ipynb) is for creating dataset for training machine learning models.\
 [fol.py](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/fol.py) is for splitting image dataset into train and test folders.
 
 2. Deep Learning Models:
-[tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) is to run the deep learning models (VGG, DenseNet, ResNet).
+[tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) is to run the deep learning models (VGG, DenseNet, ResNet).\
 [visualization.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/visualization.ipynb) is to visualize hidden layers
 
 3. Machine Learning Models and Ensemble:
-[MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models
+[MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models.\
 
 So, the main trianing and test result model codes are: [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) and [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb)
 
@@ -89,7 +89,7 @@ save_obj(labels, 'cleaned_dataset_labels')
 ### Step 3: Data Splitting ###
 
 Dataset for both traditional and deep learning are splitted into `train` and `test` respectively. The split ratio is `[80:20]`. Run the following code to split your data:
-[dataset split](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/fol.py). Change your dataset paths by giving input images and output directory to save the splitted data. The dataset should be in the format:
+[fol.py](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/fol.py). Change your dataset paths by giving input images and output directory to save the splitted data. The dataset should be in the format:
 
 ```
 input/
@@ -116,7 +116,7 @@ splitfolders.ratio("input_images/,
 
 Transfer Learning models with pre-trained `ImageNet` weights are used to train the model. The base layers are froze and last layers are activated with `Softmax` activation function with `28` output layers. 
 
-Go to `Google Colab`, and save the `runtime` as `GPU`. Upload this notbook [tranfer_learning_ensemble](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/tranfer_learning_ensemble.ipynb). Now, use the refined dataset to train the model [dataset link](https://drive.google.com/file/d/1awPqXYmxEnRN1bRtoKYYZ9Brm1Q7MDke/view?usp=sharing). Now change the train and test paths as mentioned below:
+Go to `Google Colab`, and save the `runtime` as `GPU`. Upload this notbook [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/tranfer_learning_ensemble.ipynb). Now, use the refined dataset to train the model [dataset link](https://drive.google.com/file/d/1awPqXYmxEnRN1bRtoKYYZ9Brm1Q7MDke/view?usp=sharing). Now change the train and test paths as mentioned below:
 
 ```python
 DIR_TRAIN = '/content/drive/MyDrive/gray_mal_dataset/train/'
@@ -168,9 +168,9 @@ The models are trained individually and stored as weight files `.pth`.
 
 *Now, time for Machine Learning Models*
 
-For the machine learning models, use this cleaned dataset to train the ML Models. [dataset link](https://drive.google.com/file/d/1ykFi8YPKYsJH7dxahgViAd9MzfJJ5a1D/view?usp=share_link). 
+For the machine learning models, use this cleaned dataset to train the ML Models. [dataset link](https://drive.google.com/file/d/1ykFi8YPKYsJH7dxahgViAd9MzfJJ5a1D/view?usp=share_link).\
 
-Go to the jupyter notbook [machine learning models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/Hamed/MalDetection.ipynb) and change the dataset path as mentioned below:
+Go to the jupyter notbook [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/Hamed/MalDetection.ipynb) and change the dataset path as mentioned below:
 
 ```python
 dir = 'G:/University/Ph.D/AI for Sybersecurity/Project/Cleaned Datasets/'
