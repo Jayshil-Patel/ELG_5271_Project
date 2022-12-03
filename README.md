@@ -318,10 +318,8 @@ Execute each cell in the notebook and you will get a visualization of the hidden
 We hope you enjoyed and get to know more about our project
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-ELG 5271 Artificial Intelligence for Cybersecurity Applications.
 
-Project.
+# ELG 5271 Artificial Intelligence for Cybersecurity Applications -- Project -- Group 12
 
-Group 12.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
