@@ -8,6 +8,23 @@ This project is about classifying malware classes from given image dataset. The 
 The recommended environment to run the codes it `Google Colab` with `GPU` runtime. If you are running on your local computers, install the necessary packages by running the command `pip3 install -r requirements.txt`. 
 
 --------------------------------------------------------------------------
+
+Summary of Code files;
+1. Data Pre-Processing:
+[dataset.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/dataset.ipynb) is for creating image dataset used for training deep learning models.
+[DataPreprocessing.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/DataPreprocessing.ipynb) is for creating dataset for training machine learning models.
+[fol.py](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/fol.py) is for splitting image dataset into train and test folders.
+
+2. Deep Learning Models:
+[tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) is to run the deep learning models (VGG, DenseNet, ResNet).
+[visualization.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/visualization.ipynb) is to visualize hidden layers
+
+3. Machine Learning Models and Ensemble:
+[MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models
+
+So, the main trianing and test result model codes are: [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) and [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb)
+
+
 _The following steps were performed to make the dataset trainable:_
 
 ### Step 1: Data Reading ###
