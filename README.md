@@ -22,7 +22,7 @@ Summary of Code files:
 3. Machine Learning Models and Ensemble:
 [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models.
 
-So, the main trianing and test result model codes are: [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) and [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb)
+So, the main training and test result model codes are: [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) and [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb)
 
 
 _The following steps were performed to make the dataset trainable:_
