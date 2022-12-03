@@ -9,7 +9,7 @@ The recommended environment to run the codes it `Google Colab` with `GPU` runtim
 
 --------------------------------------------------------------------------
 
-Summary of Code files;
+Summary of Code files:
 1. Data Pre-Processing:
 [dataset.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/dataset.ipynb) is for creating image dataset used for training deep learning models.\
 [DataPreprocessing.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/DataPreprocessing.ipynb) is for creating dataset for training machine learning models.\
