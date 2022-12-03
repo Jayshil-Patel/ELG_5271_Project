@@ -118,7 +118,7 @@ model_vgg19_bn.classifier[6] = torch.nn.Linear(in_features=model_vgg19_bn.classi
 model_vgg19_bn = model_vgg19_bn.to(DEVICE)
 ```
 
-[VGG 16 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/vgg16_graph.png)
+![VGG 16 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/vgg16_graph.png)
 
 ### Model 2: ResNet152 ###
 
@@ -130,7 +130,7 @@ model_resnet152.fc = torch.nn.Linear(model_resnet152.fc.in_features, 28)
 model_resnet152 = model_resnet152.to(DEVICE)
 ```
 
-[ResNet152 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/resnet152_graph.png)
+![ResNet152 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/resnet152_graph.png)
 
 ### Model 3: DenseNet161 ###
 
@@ -142,7 +142,7 @@ model_densenet161.classifier = torch.nn.Linear(model_densenet161.classifier.in_f
 model_densenet161 = model_densenet161.to(DEVICE)
 ```
 
-[DenseNet161 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/densenet161_graph.png)
+![DenseNet161 training accuracy graph](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/densenet161_graph.png)
 
 The models are trained individually and stored as weight files `.pth`. 
 
@@ -291,15 +291,15 @@ Here are the confusion matrix plots for ensemble models:
 
 _Ensemble model of DL models:_
 
-[Confusion Matrix of Ensemble model of DL models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_dl.png)
+![Confusion Matrix of Ensemble model of DL models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_dl.png)
 
 _Ensemble model of ML models:_
 
-[Confusion Matrix of Ensemble model of ML models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_ml.png)
+![Confusion Matrix of Ensemble model of ML models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_ml.png)
 
 _Ensemble model of all models:_
 
-[Confusion Matrix of Ensemble model of ML models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_all_models.png)
+![Confusion Matrix of Ensemble model of ML models](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/confusion_matrix_ensemble_all_models.png)
 
 *Ensemble Models are ready!*
 --------------------------------------------------------------------------
@@ -313,7 +313,7 @@ plt.imshow(image)
 
 Execute each cell in the notebook and you will get a visualization of the hidden layers. 
 
-[Hidden Layers of ResNet](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/hidden_layers.png)
+![Hidden Layers of ResNet](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/graphs/hidden_layers.png)
 
 We hope you enjoyed and get to know more about our project
 --------------------------------------------------------------------------
