@@ -6,6 +6,7 @@
 This project is about classifying malware classes from given image dataset. The dataset contains 28 classes and are given in the format 3D numpy array and RGB csv file. The given dataset is not trainable format nor cleansed data. Hence, cleaning needs to be done before proceeding it for training.
 
 The recommended environment to run the codes it `Google Colab` with `GPU` runtime. If you are running on your local computers, install the necessary packages by running the command `pip3 install -r requirements.txt`. 
+
 --------------------------------------------------------------------------
 _The following steps were performed to make the dataset trainable:_
 
