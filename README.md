@@ -4,6 +4,8 @@
 ## Malware Detection using PNG images ##
 
 This project is about classifying malware classes from given image dataset. The dataset contains 28 classes and are given in the format 3D numpy array and RGB csv file. The given dataset is not trainable format nor cleansed data. Hence, cleaning needs to be done before proceeding it for training.
+
+The recommended environment to run the codes it `Google Colab` with `GPU` runtime. If you are running on your local computers, install the necessary packages by running the command `pip3 install -r requirements.txt`. 
 --------------------------------------------------------------------------
 _The following steps were performed to make the dataset trainable:_
 
@@ -68,7 +70,20 @@ save_obj(labels, 'cleaned_dataset_labels')
 
 ### Step 3: Data Splitting ###
 
-Dataset for both traditional and deep learning are splitted into `train` and `test` respectively. The split ratio is `[80:20]`. 
+Dataset for both traditional and deep learning are splitted into `train` and `test` respectively. The split ratio is `[80:20]`. Run the following code to split your data:
+[dataset split](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/fol.py). Change your dataset paths by giving input images and output directory to save the splitted data. The dataset should be in the format:
+
+```
+input/
+    class1/
+        img1.jpg
+        img2.jpg
+        ...
+    class2/
+        imgWhatever.jpg
+        ...
+    ...
+```
 
 ```python
 import splitfolders
