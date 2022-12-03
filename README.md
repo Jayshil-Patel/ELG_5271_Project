@@ -20,7 +20,7 @@ Summary of Code files;
 [visualization.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/visualization.ipynb) is to visualize hidden layers
 
 3. Machine Learning Models and Ensemble:
-[MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models.\
+[MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb) is to run the machine learning models and ensemble models.
 
 So, the main trianing and test result model codes are: [tranfer_learning_ensemble.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/tranfer_learning_ensemble.ipynb) and [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/master/MalDetection.ipynb)
 
@@ -168,7 +168,7 @@ The models are trained individually and stored as weight files `.pth`.
 
 *Now, time for Machine Learning Models*
 
-For the machine learning models, use this cleaned dataset to train the ML Models. [dataset link](https://drive.google.com/file/d/1ykFi8YPKYsJH7dxahgViAd9MzfJJ5a1D/view?usp=share_link).\
+For the machine learning models, use this cleaned dataset to train the ML Models. [dataset link](https://drive.google.com/file/d/1ykFi8YPKYsJH7dxahgViAd9MzfJJ5a1D/view?usp=share_link).
 
 Go to the jupyter notbook [MalDetection.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/Hamed/MalDetection.ipynb) and change the dataset path as mentioned below:
 
@@ -321,7 +321,7 @@ _Ensemble model of all models:_
 *Ensemble Models are ready!*
 --------------------------------------------------------------------------
 
-Now, out of curiosity, we even visualized hidden layers of an given image with ResNet model. Go to the notebook [visualization](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/visualization.ipynb). Give an input image in the following line:
+Now, out of curiosity, we even visualized hidden layers of an given image with ResNet model. Go to the notebook [visualization.ipynb](https://github.com/Jayshil-Patel/ELG_5271_Project/blob/ashish/visualization.ipynb). Give an input image in the following line:
 
 ```python
 image = Image.open(str('/content/257.png'))
